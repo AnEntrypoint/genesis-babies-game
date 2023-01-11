@@ -24,6 +24,7 @@ Objects {
   ChildIds: 14316359531343186496
   ChildIds: 4299994670121972091
   ChildIds: 18250723563170148464
+  ChildIds: 11472409125398661444
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -41,6 +42,39 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11472409125398661444
+  Name: "Collection System"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16507475764129978484
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Collection System"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1955
+            Y: -1715
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13967430494010362075
+    }
+  }
 }
 Objects {
   Id: 18250723563170148464
@@ -583,7 +617,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Text {
-    Text: "GET XP FOR PET"
+    Text: "GET XP"
     FontAsset {
     }
     Color {
@@ -691,7 +725,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Text {
-    Text: "GET NEW PET"
+    Text: "GET NEW BABY"
     FontAsset {
     }
     Color {

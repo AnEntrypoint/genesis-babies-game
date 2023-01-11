@@ -1,10 +1,5 @@
 local propPets = script:GetCustomProperty("Pets"):WaitForObject()
 
-
-
-
-
-
 function DeletePet(player)
     local petToDelete = propPets:FindChildByName(player.name)
     if Object.IsValid(petToDelete) then
@@ -20,6 +15,7 @@ function SpawnPet(player)
 
 end
 function OnResourceChange(player, whichResource, amount)
+	local i = 0;
     if whichResource == "PetXP" then
         if amount>=25 then
             player:AddResource("PetLvl", 1)
