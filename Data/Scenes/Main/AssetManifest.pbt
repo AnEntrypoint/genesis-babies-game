@@ -53,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13570607535455660494
+  Name: "Sphere"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_002"
+  }
+}
+Assets {
   Id: 12995567400948956671
   Name: "Rock Pile 002"
   PlatformAssetType: 1
@@ -116,6 +125,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4342756216088781504
+  Name: "Fantasy Sword Blade 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_blade_sword_002"
+  }
+}
+Assets {
   Id: 3858771568848765131
   Name: "Cactus Barrel Small 01"
   PlatformAssetType: 1
@@ -125,11 +143,47 @@ Assets {
   }
 }
 Assets {
+  Id: 3682206342183528038
+  Name: "Fantasy Sword Grip 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_grip_sword_001"
+  }
+}
+Assets {
   Id: 2724899646782707607
   Name: "Japanese Stone Lantern Housing Small 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_jpn_lantern_stone_small_housing_001_ref"
+  }
+}
+Assets {
+  Id: 1920010878601219178
+  Name: "Fantasy Sword Guard 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_guard_sword_001"
+  }
+}
+Assets {
+  Id: 1383772742094820961
+  Name: "Fantasy Pommel 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_pommel_001"
+  }
+}
+Assets {
+  Id: 394350096431944638
+  Name: "Snow 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_snow_001_uv"
   }
 }
