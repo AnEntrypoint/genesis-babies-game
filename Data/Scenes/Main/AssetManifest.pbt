@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16918066086700933734
+  Name: "Street Sign - Octagon"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_street-sign_octagon_001"
+  }
+}
+Assets {
   Id: 16539853865669322866
   Name: "Bone Human Scattered 01"
   PlatformAssetType: 1
@@ -17,21 +26,30 @@ Assets {
   }
 }
 Assets {
-  Id: 15933900444688246824
-  Name: "Stone Basic"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "stone_001"
-  }
-}
-Assets {
   Id: 15844748277789140600
   Name: "Rock 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_003"
+  }
+}
+Assets {
+  Id: 15596870760343554385
+  Name: "Additive Edgeline Top Fade"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_add_edgeline_sharpline_topfade"
+  }
+}
+Assets {
+  Id: 14647758943623697739
+  Name: "Grass Basic"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_grass_001_uv"
   }
 }
 Assets {
@@ -77,6 +95,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bones_human_ribcage_01_ref"
+  }
+}
+Assets {
+  Id: 8065768320623836581
+  Name: "Primitive Neon: Octagon"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "NeonPrimitives_01_003"
+  }
+}
+Assets {
+  Id: 4977527784711444899
+  Name: "Urban Fence Pole - Gate End"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mil_fence_pole_02_end_002"
   }
 }
 Assets {
