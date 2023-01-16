@@ -3,11 +3,7 @@ local MessEquipment = script:GetCustomProperty("messEquipment"):WaitForObject()
 local cleanupAbility= script:GetCustomProperty("CleanupAbility"):WaitForObject()
 local IKLeft = script:GetCustomProperty("IKLeft"):WaitForObject()
 local IKRight = script:GetCustomProperty("IKRight"):WaitForObject()
-
-
-
-
-
+local MOB = script:GetCustomProperty("mob")
 function OnInteracted(whichTrigger, other)
 	if other:IsA("Player") then
         for _, EquippedMess in ipairs(other:GetEquipment()) do
@@ -15,11 +11,9 @@ function OnInteracted(whichTrigger, other)
                 return
             end
         end
-		MessEquipment:Equip(other)  
-        cleanupAbility:Activate()
+		MessEquipment:Equip(other)
         IKLeft:Activate(other)
         IKRight:Activate(other)
-        trigger.isInteractable = false
 	end
 end
 
